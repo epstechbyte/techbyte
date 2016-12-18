@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10",
-    "uniqCompNum": 22,
+    "uniqCompNum": 25,
     "versionPublish": "3.10",
     "publishType": "github",
     "publishPath": "@PROJECT_PATH@",
@@ -37,7 +37,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -392,14 +393,15 @@
         }
       ]
     },
-    "Newsletter.html": {
+    "page2.html": {
       "settings": {
-        "title": ""
+        "title": "",
+        "order": 2
       },
       "components": [
         {
           "_name": "footer1",
-          "_anchor": "footer1-f",
+          "_anchor": "footer1-m",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -468,7 +470,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-l",
+          "_anchor": "ext_menu-n",
           "_params": {
             "bgColor": "#282828",
             "fontSize": 0.75,
@@ -579,7 +581,7 @@
             "bgColor": "#ffffff",
             "showBullets": false
           },
-          "_anchor": "slider3-j",
+          "_anchor": "slider3-o",
           "articleLayout": false
         }
       ]
